@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand&family=Roboto&family=Tourney&display=swap');
 /* 
 * Style used in the 'Game' page
 */
@@ -52,7 +53,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
-  font-family: "Khand";
+  font-family: 'Khand', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 42px;
@@ -123,13 +124,14 @@
 .leaderboard_user_name {
   font-size: 32px;
   font-weight: bold;
+  font-family: 'Khand', sans-serif;
 }
 
 .leaderboard_user_score {
   position: absolute;
   left: 480px;
 
-  font-family: "Khand";
+  font-family: 'Khand', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -146,7 +148,7 @@
   position: absolute;
   right: 480px;
 
-  font-family: "Khand";
+  font-family: 'Khand', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 42px;
@@ -612,7 +614,7 @@ and should display them in columns of three cards max */
 
   /* Body */
 
-  font-family: "Poppins";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -695,7 +697,7 @@ and should display them in columns of three cards max */
 
   /* Body */
 
-  font-family: "Poppins";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -1161,7 +1163,7 @@ and should display them in columns of three cards max */
 
   /* Body */
 
-  font-family: "Poppins";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -1289,7 +1291,7 @@ and should display them in columns of three cards max */
 
   /* Body */
 
-  font-family: "Poppins";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -1368,7 +1370,7 @@ and should display them in columns of three cards max */
 
   /* Body */
 
-  font-family: "Poppins";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1923,7 +1925,7 @@ and should display them in columns of three cards max */
 
   border-radius: 20px;
 
-  font-family: "Poppins";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -2161,7 +2163,7 @@ and should display them in columns of three cards max */
 
   /* body bold */
 
-  font-family: "Poppins";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 13px;
@@ -2186,7 +2188,7 @@ and should display them in columns of three cards max */
 
   /* Body */
 
-  font-family: "Poppins";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
