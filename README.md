@@ -1,6 +1,6 @@
 # Transcendance
 
-This project is the very first web project we had to do at 42 Paris, and the last of the common core. We were required to build a Pong with online features as a single page app.
+This project is the very first web project we had to do at 42 Paris, and the last of the common core. We were required to build a Pong with online features, as a single page app.
 
 ## Features
 
