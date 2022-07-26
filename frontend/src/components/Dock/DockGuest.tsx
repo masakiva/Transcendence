@@ -16,8 +16,8 @@ export function DockGuest() {
           href={`http://${publicRuntimeConfig.HOST}:${publicRuntimeConfig.BACKEND_PORT}/auth`}
         >
           <Tooltip title="Login with your 42 account">
-            <IconButton className={styles.icons} aria-label="Authentication">
-              <Image src={FTLogo} alt="42 logo" layout={"fill"} />
+            <IconButton className={styles.login} aria-label="Authentication">
+              <Image src={FTLogo} alt="42 logo" />
             </IconButton>
           </Tooltip>
         </Link>

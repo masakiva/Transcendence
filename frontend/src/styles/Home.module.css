@@ -1,37 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand&family=Roboto&family=Tourney&display=swap');
-/* 
-* Style used in the 'Game' page
-*/
-.ball {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background-color: #eb5e28;
-}
-
-.left_line {
-  position: absolute;
-  left: 20%;
-  width: 5px;
-  height: 100%;
-  background-color: #000000;
-}
-
-.right_line {
-  position: absolute;
-  left: 80%;
-  width: 5px;
-  height: 100%;
-  background-color: #000000;
-}
-
-.container {
-  padding: 0 2rem;
-}
 
 /* 
 	Background for the leaderboard
@@ -365,9 +332,14 @@
 	Icons are scaled to be bigger.
 	The margin create some space between the icons.
 */
+
+.login {
+  margin: 1rem;
+}
+
 .icons {
   transform: scale(1.8);
-  margin: 1.7rem;
+  margin: 2rem;
 }
 
 /*
@@ -415,10 +387,10 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 55px;
-  display: flex;
   align-items: center;
-  letter-spacing: -0.02em;
+  text-align: center;
 
+  padding: 0.1rem;
   /* White */
 
   color: #ffffff;
@@ -432,6 +404,8 @@
 
   display: flex;
   flex-direction: row;
+  align-items: left;
+  
 }
 
 .social_menu_button {
@@ -443,7 +417,7 @@
   line-height: 40px;
   display: flex;
   align-items: center;
-  letter-spacing: -0.02em;
+ 
 
   /* Dark grey */
 
@@ -461,7 +435,8 @@
   line-height: 40px;
   display: flex;
   align-items: center;
-  letter-spacing: -0.02em;
+  text-align: center;
+ 
   text-decoration: underline;
 
   /* Dark grey */
@@ -484,7 +459,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  letter-spacing: -0.02em;
+ 
 
   /* White */
 
@@ -588,7 +563,7 @@ and should display them in columns of three cards max */
   line-height: 40px;
   display: flex;
   align-items: center;
-  letter-spacing: -0.02em;
+ 
 
   /* White */
 
@@ -621,7 +596,7 @@ and should display them in columns of three cards max */
   line-height: 20px;
   display: flex;
   align-items: center;
-  letter-spacing: -0.02em;
+ 
 
   /* White */
 
@@ -705,7 +680,7 @@ and should display them in columns of three cards max */
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: -0.02em;
+ 
 
   /* White */
 
@@ -1045,7 +1020,7 @@ and should display them in columns of three cards max */
   line-height: 40px;
   display: flex;
   align-items: center;
-  letter-spacing: -0.02em;
+ 
 
   /* White */
 
@@ -1170,7 +1145,7 @@ and should display them in columns of three cards max */
   line-height: 20px;
   display: flex;
   align-items: center;
-  letter-spacing: -0.02em;
+ 
 
   /* White */
 
@@ -1231,7 +1206,7 @@ and should display them in columns of three cards max */
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: -0.02em;
+ 
 
   /* White */
 
@@ -1575,7 +1550,7 @@ and should display them in columns of three cards max */
   display: flex;
   flex-direction: column;
   align-items: center;
-  letter-spacing: -0.02em;
+ 
 
   white-space: nowrap;
   /* White */
@@ -1825,7 +1800,7 @@ and should display them in columns of three cards max */
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: -0.02em;
+ 
 
   /* White */
 
@@ -1852,10 +1827,12 @@ and should display them in columns of three cards max */
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .profile_history_title {
   position: absolute;
+
   width: 201px;
   height: 55px;
   left: 50%;
@@ -1871,10 +1848,9 @@ and should display them in columns of three cards max */
   line-height: 55px;
   /* identical to box height */
 
-  display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: -0.02em;
+ 
 
   /* White */
 
@@ -1903,7 +1879,7 @@ and should display them in columns of three cards max */
   flex-direction: column;
   align-items: center;
   text-align: center;
-  letter-spacing: -0.02em;
+ 
 
   /* White */
 
@@ -1933,7 +1909,7 @@ and should display them in columns of three cards max */
   /* identical to box height */
 
   display: flex;
-  letter-spacing: -0.02em;
+ 
 
   /* White */
 
@@ -2059,6 +2035,7 @@ and should display them in columns of three cards max */
   left: 0px;
   top: 0px;
   background: #163f5b;
+  min-width: 220px;
 }
 
 .profile_user_account_details {
@@ -2067,6 +2044,7 @@ and should display them in columns of three cards max */
   right: 20.71%;
   top: 10.95%;
   bottom: 55.12%;
+
 }
 
 .profile_user_account_details_title {
@@ -2086,7 +2064,7 @@ and should display them in columns of three cards max */
   line-height: 55px;
   display: flex;
   align-items: center;
-  letter-spacing: -0.02em;
+
 
   white-space: nowrap;
 
@@ -2118,7 +2096,7 @@ and should display them in columns of three cards max */
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: -0.02em;
+ 
 
   /* align the content on a line */
   white-space: nowrap;
@@ -2141,7 +2119,7 @@ and should display them in columns of three cards max */
   font-family: "Khand";
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 32px;
   line-height: 28px;
   display: flex;
   flex-direction: column;
@@ -2166,13 +2144,13 @@ and should display them in columns of three cards max */
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 18px;
   line-height: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  letter-spacing: -0.02em;
+ 
 
   /* White */
 
@@ -2191,13 +2169,13 @@ and should display them in columns of three cards max */
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  letter-spacing: -0.02em;
+ 
 
   /* White */
 
@@ -2405,7 +2383,10 @@ and should display them in columns of three cards max */
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
 
   position: absolute;
   left: 50%;

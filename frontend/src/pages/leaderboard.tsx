@@ -77,7 +77,7 @@ export default function Leaderboard() {
   return (
     <>
       <div className={styles.leaderboard_background}>
-        <div className={styles.leaderboard_title}>LEADERBOARD</div>
+        <div className={styles.leaderboard_title}>Leaderboard</div>
         {createLeaderboard(users)}
       </div>
     </>
