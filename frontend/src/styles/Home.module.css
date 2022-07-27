@@ -377,7 +377,7 @@
   position: absolute;
   width: 120px;
   height: 70px;
-  left: 8%;
+  left: 5%;
   top: 5%;
 
   /* Header 1 */
@@ -399,7 +399,7 @@
 .social_menu {
   position: absolute;
   height: 41px;
-  left: 8%;
+  left: 5%;
   top: 14%;
 
   display: flex;

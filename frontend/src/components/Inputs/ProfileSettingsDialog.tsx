@@ -112,23 +112,22 @@ export function ProfileSettingsDialog({
         open={open}
         onClose={handleClose}
       >
-        <DialogTitle>User settings</DialogTitle>
         <DialogContent>
           <Box className={styles.globalSettings}>
+
+            <SettingsAvatar
+              preview={preview}
+              setNewImage={setNewImage}
+              setPreview={setPreview}
+              user={user}
+            />
             <div className={styles.chat_create_channel_form_input}>
-              Username
             </div>
             <TextField
               label=""
               value={username}
               setValue={setUsername}
               error={textFieldError}
-            />
-            <SettingsAvatar
-              preview={preview}
-              setNewImage={setNewImage}
-              setPreview={setPreview}
-              user={user}
             />
             <DialogActions>
               <ButtonUpdateProfileSettings updateChannel={updateUser} />

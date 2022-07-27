@@ -80,23 +80,17 @@ export const SetProfileFirstLogin = () => {
           minHeight: "350px",
           display: "grid",
           justifyContent: "center",
+          borderRadius: "10px",
+          fontFamily: "Khand",
+          fontSize: "18px",
+          color: "white",
+          textAlign: "center",
+          padding: "25px",
         },
       }}
       open={!sessionContext.userSelf.username}
     >
-      <DialogTitle>Set your profile</DialogTitle>
-      <form onSubmit={updateUsername}>
-        <br />
-        <TextField
-          label="Set username"
-          value={username}
-          setValue={setUsername}
-          error={textFieldError}
-        />
-        <Button type="submit">ok</Button>
-      </form>
       <label htmlFor="icon-button-file">
-        Click on the avatar to change it
         <Input
           accept="image/*"
           id="icon-button-file"
@@ -138,10 +132,26 @@ export const SetProfileFirstLogin = () => {
             />
           </Avatar>
         </Avatar>
+
+        <form onSubmit={updateUsername}>
+          <br />
+          <TextField
+            label="Set username"
+            value={username}
+            setValue={setUsername}
+            error={textFieldError}
+          />
+        
+        </form>
       </label>
-	  You can go back to the home page by pressing escape.
-	  <br/>
-	  ⚠️ Doing so in game will result in a defeat.
+      <br />
+      You can go back to the home page by pressing escape.
+      <br />
+      ⚠️ Doing so in game will result in a defeat.
+      <br />
+      <br />
+
+      <Button variant="contained" color="primary" type="submit">ok</Button>
     </Dialog>
   );
 };
