@@ -104,7 +104,8 @@ const PlayerVsPlayer = () => {
     return () => {
       // edit unmounting logic for spectating and multiple windows on game
       if (secondMount.current !== true) {
-        secondMount.current = true;
+        secondMount.current = true; 
+        document.body.style.overflow = "hidden";
       } else {
         if (gameSocket.current != undefined) {
           gameSocket.current.emit(
