@@ -1,5 +1,7 @@
 # Transcendance
 
+![Home](images/home.png)
+
 This project is the very first web project we had to do at 42 Paris, and the last of the common core. We were required to build a Pong with online features, as a single page app.
 
 ## Features
@@ -18,7 +20,9 @@ This project is the very first web project we had to do at 42 Paris, and the las
 
 ## Run the project
 
-Clone the repo and run the following command
+⚠️ In order to test this project you must have access to the 42 API and edit the private and public keys in `.env` and `.env.private` ⚠️
+
+Clone the repo and run the following command :
 
 ```
 docker-compose up --build
@@ -26,11 +30,27 @@ docker-compose up --build
 
 ## Design
 
-Feel free to check our [Figma](https://www.figma.com/file/MmD9qKHpindbJGGaRwnkGh/Transcendance_final?node-id=0%3A1) for an overview of the frontend's architecture.
+Feel free to check our [Figma](https://www.figma.com/file/MmD9qKHpindbJGGaRwnkGh/Transcendance_final?node-id=0%3A1) for an overview of the frontend's expected look and feel.
+We had a deadline to set the project as finished, so during development some elements of the design were left out in order to focus on a MVP.
 
 ## Screenshots
 
-coming soon
+![loading](images/loading.png)
+
+![pong](images/pong.png)
+
+![Profile](images/profile.png)
+
+![Friends](images/friends.png)
+
+![channels_public_list](images/channels_public_list.png)
+
+![channel](images/channel.png)
+
+![new_DM](images/new_DM.png)
+
+![Leaderboard](images/Leaderboard.png)
+
 
 ## Authors
 
