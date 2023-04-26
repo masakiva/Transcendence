@@ -1,8 +1,8 @@
-# Transcendance
+# Transcendence
 
 ![Home](images/home.png)
 
-This project is the very first web project we had to do at [42 Paris](https://42.fr/en/homepage/), and the last of the common core. We were required to build a Pong with online features, as a single page app.
+This project is the very first web project we had to do at [42 Paris](https://42.fr/en/homepage/), and the last of the common core. We were required to build a Pong with online social features, as a single page app.
 
 ## ✨ Features
 
@@ -15,8 +15,9 @@ This project is the very first web project we had to do at [42 Paris](https://42
 
 * [TypeScript](https://www.typescriptlang.org/) with [NextJS](https://nextjs.org/) (a [React](https://reactjs.org/) framework) - Frontend
 * [TypeScript](https://www.typescriptlang.org/) with [NestJS](https://nestjs.com/) - Backend
-* [PostGreSQL](https://www.postgresql.org/) - Database
-* [Docker](https://www.docker.com/) 
+* [PostGreSQL](https://www.postgresql.org/) and [TypeORM](https://typeorm.io/) - Database
+* [Socket.io](https://socket.io/) - WebSockets
+* [Docker-Compose](https://www.docker.com/) - Container management
 
 ## ▶️ Run the project
 
