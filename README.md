@@ -17,6 +17,7 @@ This project is the very first web project we had to do at [42 Paris](https://42
 * [TypeScript](https://www.typescriptlang.org/) with [NestJS](https://nestjs.com/) - Backend
 * [PostGreSQL](https://www.postgresql.org/) and [TypeORM](https://typeorm.io/) - Database
 * [Socket.io](https://socket.io/) - WebSockets
+* [JSON Web Tokens](https://jwt.io/) - Authentication and authorization tokens
 * [Docker-Compose](https://www.docker.com/) - Container management
 
 ## ▶️ Run the project
@@ -68,7 +69,7 @@ We had a deadline to set the project as finished, so during development some ele
 
 ## 👨‍💻 Authors
 
-* [Pilouck](https://github.com/PiloucK/)
+* [PiloucK](https://github.com/PiloucK/)
 * [NotCampeur](https://github.com/NotCampeur)
 * [masakiva](https://github.com/masakiva)
 * [valentinllpz](https://github.com/valentinllpz)
