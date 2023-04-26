@@ -73,3 +73,5 @@ We had a deadline to set the project as finished, so during development some ele
 * [NotCampeur](https://github.com/NotCampeur)
 * [masakiva](https://github.com/masakiva)
 * [valentinllpz](https://github.com/valentinllpz)
+* [Fdidelot](https://github.com/Fdidelot)
+* [Lusehair](https://github.com/lusehair) (only on the first month)
